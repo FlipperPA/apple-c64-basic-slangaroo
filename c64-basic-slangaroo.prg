@@ -3,9 +3,10 @@
 210 GOSUB 2000
 220 FOR X = 0 TO 3000: NEXT X
 230 PRINT CHR$(147)
-240 GOSUB 3000
-250 FOR X = 0 TO 3000: NEXT X
-260 GOTO 100
+240 GOSUB 1000
+250 GOSUB 3000
+260 FOR X = 0 TO 3000: NEXT X
+270 GOTO 100
 1000 PRINT "                         @ "
 1010 PRINT "                       #@@ "
 1020 PRINT "                      ,@@' "
